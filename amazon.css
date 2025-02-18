@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Designing Navigation bar  */
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    /* border: 1px solid white; */
+    color: white;
+    height: 30px;
+  }
+ 
+  nav .nav-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 38px;
+    /* border: 1px solid white; */
+  }
+
+  nav .nav-container button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 14px;
+    /* border: 1px solid white; */
+    padding: 10px;
+  }
+
+  nav .nav-container button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+
+  nav .nav-container2{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 15px;
+    /* border: 1px solid white; */
+    margin-left: 200px;
+  }
+
+  nav .nav-container2 button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 25px;
+    /* border: 1px solid white; */
+    padding: 8px;
+  }
+
+  #circle:hover{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: black;
+
+  }
+
+  #drop:hover{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 65px;
+  }
+
+  nav .nav-container2 button select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    padding: 5px;
+  }
+
+  #join-prime-btn{
+    background-color: rgb(5, 103, 160);
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  #join-prime-btn:hover{
+    background-color: rgb(29, 156, 230);
+  }
+
+
+
+  nav .header{
+    background-color: rgb(3, 1, 17);
+  }
+ 
+  
+  nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+ 
+  nav li{
+    list-style-type: none;
+  }
+  
+  .logo img{
+    height: 15px;
+    width: 100px;
+    padding-right: 25px;
+  }
+ 
+  nav{
+    /* position: fixed; */
+    width: 100%;
+    top: 0px;
+  }
+ 
+  nav a:hover{
+    color: rgb(199, 123, 244);
+  }
+
+ 
+
+
+
+  /* Designing first banner1 sectiom */
+
+  .background{
+    background: url(./images/MLP.jpg) center/cover;
+    height: 100vh;
+  }
+
+  .header2{
+    /* border: 1px solid white; */
+    width: 45%;
+    height: 50vh;
+    color: white;
+    padding: 40px;
+  }
+
+  .header2 h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+
+  .header2 h4{
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 25px;
+  }
+
+  .header2 button{
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: rgb(5, 103, 160);
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .background2{
+    background: url(./images/TVOD_MLP_Right.jpg) center/cover;
+    height: 100vh;
+  }
+
+  .header3{
+    /* border: 1px solid white; */
+    width: 45%;
+    height: 50vh;
+    color: white;
+    padding: 40px;
+  }
+
+  .header3 h1{
+    margin-bottom: 50px;
+    font-size: 41px;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+
+  .header3 h4{
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 25px;
+  }
+
+  .header3 button{
+    padding: 15px 100px;
+    font-size: 20px;
+    background-color: rgb(5, 103, 160);
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .background3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+
+  .header4{
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 50vh;
+    color: black;
+    padding: 40px;
+  }
+
+  .header4 h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+
+  .header4 h4{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 25px;
+  }
+
+  .channels-container{
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .channels{
+    /* border: 1px solid black; */
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+  }
+
+  .channels img{
+    /* border: 1px solid black; */
+    width: 195px;
+    height: 140px;
+    margin-left: 2px;
+  }
+
+  .channels img:hover{
+    box-shadow: 0px 0px 15px black;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    height: 22vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-links{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+
+  .footer-links a{
+    text-decoration: none;
+    color:  rgba(132, 199, 238, 0.863);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .footer-img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  .copyright-container{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(151, 196, 223, 0.733);
+    font-size: 15px;
+  }
+
+
+ 
