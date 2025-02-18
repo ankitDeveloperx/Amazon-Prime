@@ -1,4 +1,4 @@
-**# Amazon Prime Video Clone**
+# **Amazon Prime Video Clone**
 
 This is a **front-end clone** of the Amazon Prime Video homepage, built using **HTML, CSS, and Boxicons**. The project replicates the layout and styling of the Prime Video landing page.
 
